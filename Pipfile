@@ -12,6 +12,7 @@ django = "*"
 django-rest-framework = "*"
 "psycopg2" = "*"
 drf-nested-routers = "*"
+django-filter = "*"
 
 [requires]
 python_version = "3.5"
