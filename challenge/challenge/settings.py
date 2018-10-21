@@ -79,10 +79,11 @@ WSGI_APPLICATION = 'challenge.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'education',
-        'USER': 'manatal',
-        'PASSWORD': 'manatal',
-        'HOST': 'localhost',
+        'NAME': os.environ.get('DB_NAME', 'education'),
+        'USER': os.environ.get('DB_USER', 'manatal'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'manatal'),
+        'HOST': os.environ.get('DB_HOST', 'localhost'),
+        'PORT': os.environ.get('DB_PORT', ''),
     }
 }
 

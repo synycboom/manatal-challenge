@@ -1,0 +1,28 @@
+version: '3'
+
+volumes:
+  postgres_data: {}
+
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=education
+      - POSTGRES_USER=manatal
+      - POSTGRES_PASSWORD=manatal
+  web:
+    build: .
+    command: /bin/bash -c "python3 manage.py migrate & python3 manage.py runserver 0:8000"
+    environment:
+      - DB_HOST=db
+      - DB_NAME=education
+      - DB_USER=manatal
+      - DB_PASSWORD=manatal
+      - DB_PORT=5432
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
