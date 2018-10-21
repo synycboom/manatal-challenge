@@ -81,6 +81,9 @@ class Student(models.Model):
         today = date.today()
         born = self.birth_date
 
+        if born is None:
+            return 0
+
         if (today.month, today.day) < (born.month, born.day):
             return today.year - born.year - 1
         return today.year - born.year
