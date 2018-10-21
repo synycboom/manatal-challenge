@@ -1,6 +1,13 @@
 import factory
 from factory import fuzzy
-from education.models import School, Student
+from education.models import School, Student, Nationality
+
+
+class NationalityFactory(factory.django.DjangoModelFactory):
+    class Meta:
+        model = Nationality
+
+    name = fuzzy.FuzzyText(length=20)
 
 
 class SchoolFactory(factory.django.DjangoModelFactory):
@@ -17,4 +24,5 @@ class StudentFactory(factory.django.DjangoModelFactory):
 
     first_name = fuzzy.FuzzyText(length=20)
     last_name = fuzzy.FuzzyText(length=20)
+    nationality = factory.SubFactory(NationalityFactory)
     school = factory.SubFactory(SchoolFactory)

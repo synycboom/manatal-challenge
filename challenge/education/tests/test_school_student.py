@@ -3,7 +3,7 @@ from rest_framework import status
 from rest_framework.test import APITestCase
 
 from education.models import Student
-from education.factories import SchoolFactory, StudentFactory
+from education.factories import SchoolFactory, StudentFactory, NationalityFactory
 
 
 class SchoolStudentTestCase(APITestCase):
@@ -38,9 +38,11 @@ class SchoolStudentTestCase(APITestCase):
 
     def test_create_student_in_school(self):
         school = SchoolFactory()
+        nationality = NationalityFactory()
         data = {
             'first_name': 'John',
             'last_name': 'Wick',
+            'nationality': nationality.pk,
         }
         url = reverse('education:school-students-list', kwargs={'school_pk': school.pk})
         response = self.client.post(url, data)
@@ -50,16 +52,19 @@ class SchoolStudentTestCase(APITestCase):
         self.assertEqual(student.first_name, data['first_name'])
         self.assertEqual(student.last_name, data['last_name'])
         self.assertEqual(student.school, school)
+        self.assertEqual(student.nationality, nationality)
         self.assertNotEqual(student.identification, '')
 
     def test_update_student_in_school(self):
         school = SchoolFactory()
         new_school = SchoolFactory()
+        new_nationality = NationalityFactory()
         student = StudentFactory(school=school, first_name='John', last_name='Cena')
         data = {
             'first_name': 'John',
             'last_name': 'Wick',
             'school': new_school.pk,
+            'nationality': new_nationality.pk,
         }
         url = reverse('education:school-students-detail', kwargs={
             'school_pk': school.pk,
@@ -72,6 +77,7 @@ class SchoolStudentTestCase(APITestCase):
         self.assertEqual(student.first_name, data['first_name'])
         self.assertEqual(student.last_name, data['last_name'])
         self.assertEqual(student.school, new_school)
+        self.assertEqual(student.nationality, new_nationality)
 
     def test_partial_update_student_in_school(self):
         school = SchoolFactory()
@@ -110,11 +116,13 @@ class SchoolStudentTestCase(APITestCase):
 
     def test_create_fail_due_to_maximum_student(self):
         school = SchoolFactory(max_students=1)
+        nationality = NationalityFactory()
         StudentFactory(school=school)
 
         data = {
             'first_name': 'John',
             'last_name': 'Wick',
+            'nationality': nationality.pk,
         }
         url = reverse('education:school-students-list', kwargs={'school_pk': school.pk})
         response = self.client.post(url, data)

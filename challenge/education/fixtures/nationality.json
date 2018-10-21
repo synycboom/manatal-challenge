@@ -1,0 +1,1360 @@
+[
+    {
+        "model": "education.nationality",
+        "pk": 1,
+        "fields": {
+            "name": "Afghan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 2,
+        "fields": {
+            "name": "Albanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 3,
+        "fields": {
+            "name": "Algerian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 4,
+        "fields": {
+            "name": "American"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 5,
+        "fields": {
+            "name": "Andorran"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 6,
+        "fields": {
+            "name": "Angolan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 7,
+        "fields": {
+            "name": "Antiguans"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 8,
+        "fields": {
+            "name": "Argentinean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 9,
+        "fields": {
+            "name": "Armenian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 10,
+        "fields": {
+            "name": "Australian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 11,
+        "fields": {
+            "name": "Austrian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 12,
+        "fields": {
+            "name": "Azerbaijani"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 13,
+        "fields": {
+            "name": "Bahamian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 14,
+        "fields": {
+            "name": "Bahraini"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 15,
+        "fields": {
+            "name": "Bangladeshi"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 16,
+        "fields": {
+            "name": "Barbadian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 17,
+        "fields": {
+            "name": "Barbudans"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 18,
+        "fields": {
+            "name": "Batswana"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 19,
+        "fields": {
+            "name": "Belarusian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 20,
+        "fields": {
+            "name": "Belgian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 21,
+        "fields": {
+            "name": "Belizean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 22,
+        "fields": {
+            "name": "Beninese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 23,
+        "fields": {
+            "name": "Bhutanese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 24,
+        "fields": {
+            "name": "Bolivian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 25,
+        "fields": {
+            "name": "Bosnian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 26,
+        "fields": {
+            "name": "Brazilian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 27,
+        "fields": {
+            "name": "British"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 28,
+        "fields": {
+            "name": "Bruneian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 29,
+        "fields": {
+            "name": "Bulgarian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 30,
+        "fields": {
+            "name": "Burkinabe"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 31,
+        "fields": {
+            "name": "Burmese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 32,
+        "fields": {
+            "name": "Burundian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 33,
+        "fields": {
+            "name": "Cambodian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 34,
+        "fields": {
+            "name": "Cameroonian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 35,
+        "fields": {
+            "name": "Canadian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 36,
+        "fields": {
+            "name": "Cape Verdean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 37,
+        "fields": {
+            "name": "Central African"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 38,
+        "fields": {
+            "name": "Chadian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 39,
+        "fields": {
+            "name": "Chilean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 40,
+        "fields": {
+            "name": "Chinese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 41,
+        "fields": {
+            "name": "Colombian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 42,
+        "fields": {
+            "name": "Comoran"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 43,
+        "fields": {
+            "name": "Congolese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 44,
+        "fields": {
+            "name": "Costa Rican"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 45,
+        "fields": {
+            "name": "Croatian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 46,
+        "fields": {
+            "name": "Cuban"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 47,
+        "fields": {
+            "name": "Cypriot"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 48,
+        "fields": {
+            "name": "Czech"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 49,
+        "fields": {
+            "name": "Danish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 50,
+        "fields": {
+            "name": "Djibouti"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 51,
+        "fields": {
+            "name": "Dominican"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 52,
+        "fields": {
+            "name": "Dutch"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 53,
+        "fields": {
+            "name": "East Timorese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 54,
+        "fields": {
+            "name": "Ecuadorean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 55,
+        "fields": {
+            "name": "Egyptian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 56,
+        "fields": {
+            "name": "Emirian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 57,
+        "fields": {
+            "name": "Equatorial Guinean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 58,
+        "fields": {
+            "name": "Eritrean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 59,
+        "fields": {
+            "name": "Estonian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 60,
+        "fields": {
+            "name": "Ethiopian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 61,
+        "fields": {
+            "name": "Fijian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 62,
+        "fields": {
+            "name": "Filipino"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 63,
+        "fields": {
+            "name": "Finnish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 64,
+        "fields": {
+            "name": "French"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 65,
+        "fields": {
+            "name": "Gabonese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 66,
+        "fields": {
+            "name": "Gambian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 67,
+        "fields": {
+            "name": "Georgian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 68,
+        "fields": {
+            "name": "German"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 69,
+        "fields": {
+            "name": "Ghanaian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 70,
+        "fields": {
+            "name": "Greek"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 71,
+        "fields": {
+            "name": "Grenadian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 72,
+        "fields": {
+            "name": "Guatemalan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 73,
+        "fields": {
+            "name": "Guinea-Bissauan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 74,
+        "fields": {
+            "name": "Guinean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 75,
+        "fields": {
+            "name": "Guyanese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 76,
+        "fields": {
+            "name": "Haitian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 77,
+        "fields": {
+            "name": "Herzegovinian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 78,
+        "fields": {
+            "name": "Honduran"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 79,
+        "fields": {
+            "name": "Hungarian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 80,
+        "fields": {
+            "name": "I-Kiribati"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 81,
+        "fields": {
+            "name": "Icelander"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 82,
+        "fields": {
+            "name": "Indian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 83,
+        "fields": {
+            "name": "Indonesian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 84,
+        "fields": {
+            "name": "Iranian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 85,
+        "fields": {
+            "name": "Iraqi"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 86,
+        "fields": {
+            "name": "Irish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 87,
+        "fields": {
+            "name": "Israeli"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 88,
+        "fields": {
+            "name": "Italian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 89,
+        "fields": {
+            "name": "Ivorian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 90,
+        "fields": {
+            "name": "Jamaican"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 91,
+        "fields": {
+            "name": "Japanese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 92,
+        "fields": {
+            "name": "Jordanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 93,
+        "fields": {
+            "name": "Kazakhstani"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 94,
+        "fields": {
+            "name": "Kenyan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 95,
+        "fields": {
+            "name": "Kittian and Nevisian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 96,
+        "fields": {
+            "name": "Kuwaiti"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 97,
+        "fields": {
+            "name": "Kyrgyz"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 98,
+        "fields": {
+            "name": "Laotian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 99,
+        "fields": {
+            "name": "Latvian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 100,
+        "fields": {
+            "name": "Lebanese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 101,
+        "fields": {
+            "name": "Liberian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 102,
+        "fields": {
+            "name": "Libyan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 103,
+        "fields": {
+            "name": "Liechtensteiner"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 104,
+        "fields": {
+            "name": "Lithuanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 105,
+        "fields": {
+            "name": "Luxembourger"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 106,
+        "fields": {
+            "name": "Macedonian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 107,
+        "fields": {
+            "name": "Malagasy"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 108,
+        "fields": {
+            "name": "Malawian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 109,
+        "fields": {
+            "name": "Malaysian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 110,
+        "fields": {
+            "name": "Maldivian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 111,
+        "fields": {
+            "name": "Malian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 112,
+        "fields": {
+            "name": "Maltese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 113,
+        "fields": {
+            "name": "Marshallese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 114,
+        "fields": {
+            "name": "Mauritanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 115,
+        "fields": {
+            "name": "Mauritian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 116,
+        "fields": {
+            "name": "Mexican"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 117,
+        "fields": {
+            "name": "Micronesian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 118,
+        "fields": {
+            "name": "Moldovan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 119,
+        "fields": {
+            "name": "Monacan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 120,
+        "fields": {
+            "name": "Mongolian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 121,
+        "fields": {
+            "name": "Moroccan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 122,
+        "fields": {
+            "name": "Mosotho"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 123,
+        "fields": {
+            "name": "Motswana"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 124,
+        "fields": {
+            "name": "Mozambican"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 125,
+        "fields": {
+            "name": "Namibian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 126,
+        "fields": {
+            "name": "Nauruan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 127,
+        "fields": {
+            "name": "Nepalese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 128,
+        "fields": {
+            "name": "New Zealander"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 129,
+        "fields": {
+            "name": "Ni-Vanuatu"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 130,
+        "fields": {
+            "name": "Nicaraguan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 131,
+        "fields": {
+            "name": "Nigerian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 132,
+        "fields": {
+            "name": "Nigerien"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 133,
+        "fields": {
+            "name": "North Korean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 134,
+        "fields": {
+            "name": "Northern Irish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 135,
+        "fields": {
+            "name": "Norwegian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 136,
+        "fields": {
+            "name": "Omani"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 137,
+        "fields": {
+            "name": "Pakistani"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 138,
+        "fields": {
+            "name": "Palauan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 139,
+        "fields": {
+            "name": "Panamanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 140,
+        "fields": {
+            "name": "Papua New Guinean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 141,
+        "fields": {
+            "name": "Paraguayan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 142,
+        "fields": {
+            "name": "Peruvian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 143,
+        "fields": {
+            "name": "Polish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 144,
+        "fields": {
+            "name": "Portuguese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 145,
+        "fields": {
+            "name": "Qatari"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 146,
+        "fields": {
+            "name": "Romanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 147,
+        "fields": {
+            "name": "Russian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 148,
+        "fields": {
+            "name": "Rwandan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 149,
+        "fields": {
+            "name": "Saint Lucian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 150,
+        "fields": {
+            "name": "Salvadoran"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 151,
+        "fields": {
+            "name": "Samoan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 152,
+        "fields": {
+            "name": "San Marinese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 153,
+        "fields": {
+            "name": "Sao Tomean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 154,
+        "fields": {
+            "name": "Saudi"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 155,
+        "fields": {
+            "name": "Scottish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 156,
+        "fields": {
+            "name": "Senegalese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 157,
+        "fields": {
+            "name": "Serbian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 158,
+        "fields": {
+            "name": "Seychellois"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 159,
+        "fields": {
+            "name": "Sierra Leonean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 160,
+        "fields": {
+            "name": "Singaporean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 161,
+        "fields": {
+            "name": "Slovakian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 162,
+        "fields": {
+            "name": "Slovenian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 163,
+        "fields": {
+            "name": "Solomon Islander"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 164,
+        "fields": {
+            "name": "Somali"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 165,
+        "fields": {
+            "name": "South African"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 166,
+        "fields": {
+            "name": "South Korean"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 167,
+        "fields": {
+            "name": "Spanish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 168,
+        "fields": {
+            "name": "Sri Lankan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 169,
+        "fields": {
+            "name": "Sudanese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 170,
+        "fields": {
+            "name": "Surinamer"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 171,
+        "fields": {
+            "name": "Swazi"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 172,
+        "fields": {
+            "name": "Swedish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 173,
+        "fields": {
+            "name": "Swiss"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 174,
+        "fields": {
+            "name": "Syrian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 175,
+        "fields": {
+            "name": "Taiwanese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 176,
+        "fields": {
+            "name": "Tajik"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 177,
+        "fields": {
+            "name": "Tanzanian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 178,
+        "fields": {
+            "name": "Thai"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 179,
+        "fields": {
+            "name": "Togolese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 180,
+        "fields": {
+            "name": "Tongan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 181,
+        "fields": {
+            "name": "Trinidadian or Tobagonian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 182,
+        "fields": {
+            "name": "Tunisian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 183,
+        "fields": {
+            "name": "Turkish"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 184,
+        "fields": {
+            "name": "Tuvaluan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 185,
+        "fields": {
+            "name": "Ugandan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 186,
+        "fields": {
+            "name": "Ukrainian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 187,
+        "fields": {
+            "name": "Uruguayan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 188,
+        "fields": {
+            "name": "Uzbekistani"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 189,
+        "fields": {
+            "name": "Venezuelan"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 190,
+        "fields": {
+            "name": "Vietnamese"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 191,
+        "fields": {
+            "name": "Welsh"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 192,
+        "fields": {
+            "name": "Yemenite"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 193,
+        "fields": {
+            "name": "Zambian"
+        }
+    },
+    {
+        "model": "education.nationality",
+        "pk": 194,
+        "fields": {
+            "name": "Zimbabwean"
+        }
+    }
+]

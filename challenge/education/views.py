@@ -1,6 +1,11 @@
 from rest_framework import viewsets
-from education.models import School, Student
-from education.serializers import SchoolSerializer, StudentSerializer
+from education.models import School, Student, Nationality
+from education.serializers import SchoolSerializer, StudentSerializer, NationalitySerializer
+
+
+class NationalityViewSet(viewsets.ReadOnlyModelViewSet):
+    serializer_class = NationalitySerializer
+    queryset = Nationality.objects.all()
 
 
 class SchoolViewSet(viewsets.ModelViewSet):
@@ -20,11 +25,20 @@ class StudentViewSet(viewsets.ModelViewSet):
     filterset_fields = {
         'first_name': ('exact', 'icontains'),
         'last_name': ('exact', 'icontains'),
+        'birth_date': ('exact',),
         'school__name': ('exact', 'icontains'),
         'school__max_students': ('exact', 'lt', 'lte', 'gt', 'gte'),
+        'nationality__name': ('exact', 'icontains'),
     }
     search_fields = ('first_name', 'last_name')
-    ordering_fields = ('first_name', 'last_name', 'school__name', 'school__max_students')
+    ordering_fields = (
+        'first_name',
+        'last_name',
+        'birth_date',
+        'school__name',
+        'school__max_students',
+        'nationality__name',
+    )
 
     def get_queryset(self):
         queryset = self.queryset

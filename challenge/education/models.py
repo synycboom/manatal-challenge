@@ -1,5 +1,6 @@
 import os
 import binascii
+from datetime import date
 from django.db import models
 
 
@@ -9,6 +10,13 @@ class ConcurrentSavingError(ValueError):
 
 class MaximumStudentsError(ValueError):
     pass
+
+
+class Nationality(models.Model):
+    name = models.CharField(max_length=255)
+
+    def __str__(self):
+        return '{}'.format(self.name)
 
 
 class School(models.Model):
@@ -50,7 +58,9 @@ class Student(models.Model):
     first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=20)
     identification = models.CharField(max_length=20, editable=False, unique=True)
+    birth_date = models.DateField(null=True)
     school = models.ForeignKey(School, related_name='students', on_delete=models.CASCADE)
+    nationality = models.ForeignKey(Nationality, related_name='students', on_delete=models.CASCADE)
 
     def __str__(self):
         return '{} {} {}'.format(
@@ -62,6 +72,18 @@ class Student(models.Model):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._initial_school = self.school if self.pk else None
+
+    @property
+    def age(self):
+        """
+        suggested by: https://stackoverflow.com/a/9754466
+        """
+        today = date.today()
+        born = self.birth_date
+
+        if (today.month, today.day) < (born.month, born.day):
+            return today.year - born.year - 1
+        return today.year - born.year
 
     @staticmethod
     def generate_identification():

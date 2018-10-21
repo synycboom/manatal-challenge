@@ -1,6 +1,12 @@
 from django.db import IntegrityError
 from rest_framework import serializers
-from education.models import School, Student, MaximumStudentsError, ConcurrentSavingError
+from education.models import School, Student, MaximumStudentsError, ConcurrentSavingError, Nationality
+
+
+class NationalitySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Nationality
+        fields = '__all__'
 
 
 class SchoolSerializer(serializers.ModelSerializer):
@@ -19,6 +25,10 @@ class SchoolSerializer(serializers.ModelSerializer):
 
 
 class StudentSerializer(serializers.ModelSerializer):
+    age = serializers.IntegerField(read_only=True)
+    school_name = serializers.CharField(read_only=True, source='school.name')
+    nationality_name = serializers.CharField(read_only=True, source='nationality.name')
+
     class Meta:
         model = Student
         fields = '__all__'
