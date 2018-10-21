@@ -18,12 +18,12 @@ class SchoolStudentTestCase(APITestCase):
         url = reverse('education:school-students-list', kwargs={'school_pk': school1.pk})
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK, response.data)
-        self.assertEqual(len(response.data), 3)
+        self.assertEqual(len(response.data['results']), 3)
 
         url = reverse('education:school-students-list', kwargs={'school_pk': school2.pk})
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK, response.data)
-        self.assertEqual(len(response.data), 2)
+        self.assertEqual(len(response.data['results']), 2)
 
     def test_list_student_in_school_fail_no_detail(self):
         school1 = SchoolFactory(max_students=1)
